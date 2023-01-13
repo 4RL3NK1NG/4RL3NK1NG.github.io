@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    color: rgb(40, 40, 40);
+}
+
+nav {
+    background-color: gray;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+nav ul{
+    display: inline;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-flex;
+    padding-right: 15px;
+    padding-left: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    width: 170px;
+    margin-left: 10px;
+}
+
+nav a:hover {
+    background-color: rgb(217, 217, 217);
+}
+
+.titulo{
+    background-color:darkgray ;
+}
+
+.titulo{
+    text-align: center;
+    color: rgb(40, 40, 40);
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    margin-left: 47%;
+    margin-bottom: 8px;
+    border-radius: 100%;
+    border-inline-color: black;
+}
+
+.fondo-general{
+    background-color: gainsboro;
+    display: flexbox;
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 1%;
+}
+
+.fondo-formacion{
+    display: none;
+    background-color: gainsboro;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 1%;
+}
+
+.fondo-conocimiento{
+    display: none;
+    background-color: gainsboro;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 1%;
+}
+
+.fondo-experiencia{
+    display: none;
+    background-color: gainsboro;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 1%;
+}
+
+.fondo-referencias{
+    display: none;
+    background-color: gainsboro;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 1%;
+}
+
+.fondo-contacto{
+    background-color: gainsboro;
+    width: 25%;
+    margin-left: 37%;
+    margin-bottom: 1%;
+    display: none;
+}
+
+.fondo-contacto h3{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.fondo-contacto p {
+    margin-top: -10px;
+}
+
+div p {
+    padding: 10px;
+    margin: 0px;
+}
